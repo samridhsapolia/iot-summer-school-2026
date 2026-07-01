@@ -1,3 +1,9 @@
+/*
+Author: Samridh Sapolia
+Date: 01-07-2026
+Description: LED Blink with potentiometer speed control and serial blink counter.
+*/
+
 int potPin = A0;
 int blinkCount = 0;
 
