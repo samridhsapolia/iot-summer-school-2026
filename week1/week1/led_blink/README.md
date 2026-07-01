@@ -35,3 +35,5 @@ The LED connected to pin 13 blinks every 500 milliseconds.
 - Select the correct board.
 - Check wiring connections.
 - Re-upload the sketch if upload fails.
+## Version
+Current Version: v1.3
