@@ -1,3 +1,4 @@
+int potPin = A0;
 int blinkCount = 0;
 
 void setup() {
@@ -7,11 +8,15 @@ void setup() {
 
 void loop() {
 
+  int sensorValue = analogRead(potPin);
+
+  int blinkDelay = map(sensorValue, 0, 1023, 100, 1000);
+
   digitalWrite(13, HIGH);
-  delay(500);
+  delay(blinkDelay);
 
   digitalWrite(13, LOW);
-  delay(500);
+  delay(blinkDelay);
 
   blinkCount++;
 
