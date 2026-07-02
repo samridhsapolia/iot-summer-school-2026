@@ -59,7 +59,7 @@ void loop() {
   if (digitalRead(BTN_MI) == LOW) pressed++;
   if (digitalRead(BTN_FA) == LOW) pressed++;
 
-  // ---------- Two Buttons = Sol ----------
+// Play Sol note when two buttons are pressed together
   if (pressed >= 2) {
     tone(BUZZER, 392);
   }
