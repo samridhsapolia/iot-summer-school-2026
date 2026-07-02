@@ -34,7 +34,7 @@ void setup() {
 }
 
 void loop() {
-
+// Toggle between Major and Minor scales using Button 5
   // ---------- Mode Toggle ----------
   bool modeState = digitalRead(BTN_MODE);
 
