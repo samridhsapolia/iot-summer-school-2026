@@ -27,4 +27,4 @@ This project demonstrates serial communication between the Arduino UNO and a com
 ## Expected Output
 The Arduino receives commands from the Serial Monitor and performs the requested action while displaying status messages.
 
-DHT22 was used in Wokwi as a simulation substitute for DHT11 because Wokwi provides DHT22 support. The application logic is the same.
+
